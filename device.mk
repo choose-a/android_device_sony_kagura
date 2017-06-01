@@ -79,7 +79,7 @@ PRODUCT_PROPERTY_OVERRIDES := \
     ro.usb.pid_suffix=1E7
 
 # Inherit from those products. Most specific first.
-$(call inherit-product, device/sony/tone-common/platform_omni.mk)
+$(call inherit-product, device/sony/tone-common/choose_platform.mk)
 $(call inherit-product, vendor/sony/tone-kagura/kagura-vendor.mk)
 
 # copy wlan firmware

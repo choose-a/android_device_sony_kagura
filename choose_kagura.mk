@@ -23,11 +23,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
     telephony.lteOnGSMDevice=1
 
 # Override Product Name for OmniROM
-PRODUCT_NAME := omni_kagura
+PRODUCT_NAME := choose_kagura
 PRODUCT_MODEL := Xperia XZ
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := F8331,kagura
 
 # Inherit OmniROM parts
-$(call inherit-product, vendor/omni/config/gsm.mk)
+$(call inherit-product, vendor/choose-a/config/gsm.mk)
