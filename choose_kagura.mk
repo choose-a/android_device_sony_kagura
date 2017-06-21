@@ -18,16 +18,15 @@ TARGET_BOOTANIMATION_SIZE := 1080x608
 # Inherit device parts
 $(call inherit-product, device/sony/kagura/aosp_f8331.mk)
 
-# Inherit Omni GSM telephony parts
-PRODUCT_PROPERTY_OVERRIDES += \
-    telephony.lteOnGSMDevice=1
-
-# Override Product Name for OmniROM
+# Override Product Name
 PRODUCT_NAME := choose_kagura
 PRODUCT_MODEL := Xperia XZ
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := F8331,kagura
 
-# Inherit OmniROM parts
+# Inherit rom parts
 $(call inherit-product, vendor/choose-a/config/gsm.mk)
+
+# Inherit device vendor
+$(call inherit-product, vendor/sony/tone-kagura/kagura-vendor.mk)
