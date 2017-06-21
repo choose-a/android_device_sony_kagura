@@ -82,10 +82,10 @@ PRODUCT_PROPERTY_OVERRIDES := \
 $(call inherit-product, device/sony/tone-common/choose_platform.mk)
 
 # copy wlan firmware
-$(call inherit-product-if-exists, vendor/sony/aosp_broadcom/wlan/bcmdhd/firmware/bcm4359/device-bcm.mk)
+$(call inherit-product-if-exists, vendor/broadcom/wlan/bcmdhd/firmware/bcm4359/device-bcm.mk)
 
 # copy NFC firmware
-$(call inherit-product-if-exists, vendor/sony/aosp_nxp/nxp-vendor.mk)
+$(call inherit-product-if-exists, vendor/nxp/nxp-vendor.mk)
 
 # include board vendor blobs
 $(call inherit-product, vendor/sony/tone-common/tone-partial.mk)
