@@ -29,4 +29,4 @@ TARGET_OTA_ASSERT_DEVICE := F8331,kagura
 $(call inherit-product, vendor/choose-a/config/gsm.mk)
 
 # Inherit device vendor
-$(call inherit-product, vendor/sony/tone-kagura/kagura-vendor.mk)
+# $(call inherit-product, vendor/sony/tone-kagura/kagura-vendor.mk)
