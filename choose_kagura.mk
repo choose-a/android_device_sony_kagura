@@ -23,7 +23,7 @@ PRODUCT_NAME := choose_kagura
 PRODUCT_MODEL := Xperia XZ
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := F8331,kagura
+TARGET_OTA_ASSERT_DEVICE := none
 
 # Inherit rom parts
 $(call inherit-product, vendor/choose-a/config/gsm.mk)
