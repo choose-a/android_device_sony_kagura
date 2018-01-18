@@ -34,4 +34,4 @@ BOARD_SYSTEMIMAGE_PARTITION_SIZE := 6197084160
 # Reserve space for data encryption (23857201152-16384)
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 23857184768
 
-#TARGET_TAP_TO_WAKE_NODE := "/sys/devices/virtual/input/clearpad/wakeup_gesture"
+TARGET_TAP_TO_WAKE_NODE := "/sys/devices/virtual/input/clearpad/wakeup_gesture"
