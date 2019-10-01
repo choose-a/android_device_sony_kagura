@@ -15,6 +15,9 @@
 # Bootanimation
 TARGET_BOOTANIMATION_SIZE := 1080x608
 
+# Inherit from those products. Most specific first.
+$(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
+
 # Inherit device parts
 $(call inherit-product, device/sony/kagura/aosp_f8331.mk)
 
