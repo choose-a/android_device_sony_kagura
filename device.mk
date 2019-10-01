@@ -76,8 +76,5 @@ $(call inherit-product-if-exists, vendor/broadcom/wlan/bcmdhd/firmware/bcm4359/d
 # copy NFC firmware
 $(call inherit-product-if-exists, vendor/nxp/nxp-vendor.mk)
 
-# Include vendor props
-include device/sony/kagura/vendor_prop.mk
-
 # include board vendor blobs
 $(call inherit-product-if-exists, vendor/sony/kagura/kagura-vendor.mk)
