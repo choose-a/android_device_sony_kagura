@@ -44,7 +44,12 @@ PRODUCT_COPY_FILES += \
 
 # WIFI FW patch
 PRODUCT_COPY_FILES += \
-    $(DEVICE_PATH)/vendor/firmware/bcmdhd.cal:$(TARGET_COPY_OUT_VENDOR)/firmware/bcmdhd.cal
+    $(DEVICE_PATH)/vendor/firmware/bcmdhd.cal:$(TARGET_COPY_OUT_VENDOR)/firmware/brcm/brcmfmac4359-pcie.txt
+
+PRODUCT_COPY_FILES += \
+    $(DEVICE_PATH)/vendor/firmware/fw_bcmdhd.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/fw_bcmdhd.bin \
+    $(DEVICE_PATH)/vendor/firmware/fw_bcmdhd.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/brcm/brcmfmac4359-pcie.bin \
+    $(DEVICE_PATH)/vendor/firmware/fw_bcmdhd_apsta.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/fw_bcmdhd_apsta.bin
 
 # Audio
 PRODUCT_COPY_FILES += \
