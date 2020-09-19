@@ -1,4 +1,4 @@
-# Audio ACDB - from z2_plus - OPR1.170623.032.4.0.199_181018
+# Audio ACDB - from kagura - OPR1.170623.032.4.0.199_181018
 vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb|40ce9f6df7e42530ab55fa2412281ffd3b40822d
 vendor/etc/acdbdata/MTP/MTP_General_cal.acdb|476ad92e2e5e1df46d19161f33225a2b04b856eb
 vendor/etc/acdbdata/MTP/MTP_Handset_cal.acdb|c1c7bc9892997c13fbdb66c127d1a18d37ab2f0c
@@ -7,10 +7,10 @@ vendor/etc/acdbdata/MTP/MTP_Global_cal.acdb|2cd48125ec3343bc813bb18e8e5c473b2266
 vendor/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb|afdc6c398a71c139abcfef880a53c1600f3ed3ab
 vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb|442a76790dcb364a02fc9ac10535dec9d4d9bbdf
 
-# Camera actuator - from z2_plus - OPR1.170623.032.4.0.199_181018
+# Camera actuator - from kagura - OPR1.170623.032.4.0.199_181018
 vendor/lib/libactuator_dw9767.so|9f6792ef634727ea3f08c7acc7f01b782e9a5fc7
 
-# Camera chromatix - from z2_plus - OPR1.170623.032.4.0.199_181018
+# Camera chromatix - from kagura - OPR1.170623.032.4.0.199_181018
 vendor/lib/libchromatix_s5k2m8sx_common.so|fac9335897f14269818efbcc29bae85f251dc703
 vendor/lib/libchromatix_s5k2m8sx_cpp_hfr_120.so|d691f7cb32f3b50680ca7d74c35cd9cbd2b1ea3d
 vendor/lib/libchromatix_s5k2m8sx_cpp_hfr_60.so|439a4c92804b6aa9b1d0d88ab068834c3d34efc1
@@ -35,16 +35,16 @@ vendor/lib/libchromatix_s5k2m8sx_snapshot.so|cac63771096543a0120f23329de2b57a61c
 vendor/lib/libchromatix_s5k2m8sx_zsl_preview_dw9767.so|e4d5e1d7b515ac977fee8637531185a3341eeed1
 vendor/lib/libchromatix_s5k2m8sx_zsl_video_dw9767.so|703c956388e1393693b22f831106e978db6da0b1
 
-# Camera configs - from z2_plus - OPR1.170623.032.4.0.199_181018
+# Camera configs - from kagura - OPR1.170623.032.4.0.199_181018
 etc/camera/msm8996_camera.xml:vendor/etc/camera/msm8996_camera.xml|427dfce1771b9b6924f7067c9e8d2421678836bd
 etc/camera/s5k2m8sx_chromatix.xml:vendor/etc/camera/s5k2m8sx_chromatix.xml|570ac2d28ff639e1b5c18a28395de0520158e55d
 
-# Camera eeproms - from z2_plus - OPR1.170623.032.4.0.199_181018
+# Camera eeproms - from kagura - OPR1.170623.032.4.0.199_181018
 vendor/lib/libmmcamera_onsemi_cat24c64_eeprom.so|281544658c71f99e2791e8ab85fb4f3d02c7abef
 
-# Camera sensors - from z2_plus - OPR1.170623.032.4.0.199_181018a_ov8865.so
+# Camera sensors - from kagura - OPR1.170623.032.4.0.199_181018a_ov8865.so
 vendor/lib/libmmcamera_ov8865.so|fe23ab9aa92c7528ebadf8a042d2f1a5933e3e4b
 vendor/lib/libmmcamera_s5k2m8sx.so|41f6dd85b55b6320bcd4447900d7b4a03ecca9c0
 
-# Sensors - from z2_plus - OPR1.170623.032.4.0.199_181018
+# Sensors - from kagura - OPR1.170623.032.4.0.199_181018
 vendor/etc/sensors/sensor_def_qcomdev.conf|02f8f2f0ede4d62f733938fd4971bb1fb3dc2acd

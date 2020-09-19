@@ -22,18 +22,18 @@
 #
 
 # Inherit from common msm8996-common
--include device/zuk/msm8996-common/BoardConfigCommon.mk
+-include device/sony/msm8996-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/zuk/z2_plus
+DEVICE_PATH := device/sony/kagura
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := z2,Z2,z2plus,z2_plus
+TARGET_OTA_ASSERT_DEVICE := kagura
 
 # Audio
 AUDIO_FEATURE_ENABLED_SPKR_PROTECTION := true
 
 # Kernel
-TARGET_KERNEL_CONFIG := z2_plus_defconfig
+TARGET_KERNEL_CONFIG := kagura_defconfig
 
 # inherit from the proprietary version
--include vendor/zuk/z2_plus/BoardConfigVendor.mk
+-include vendor/sony/kagura/BoardConfigVendor.mk

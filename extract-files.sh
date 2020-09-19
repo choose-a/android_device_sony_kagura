@@ -25,9 +25,9 @@ fi
 set -e
 
 # Required!
-export DEVICE=z2_plus
+export DEVICE=kagura
 export DEVICE_COMMON=msm8996-common
-export VENDOR=zuk
+export VENDOR=sony
 
 export DEVICE_BRINGUP_YEAR=2016
 

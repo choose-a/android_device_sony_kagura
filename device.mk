@@ -22,10 +22,10 @@
 #
 
 # Inherit from vendor
-$(call inherit-product-if-exists, vendor/zuk/z2_plus/z2_plus-vendor.mk)
+$(call inherit-product-if-exists, vendor/sony/kagura/kagura-vendor.mk)
 
 # Inherit from msm8996-common
-$(call inherit-product, device/zuk/msm8996-common/msm8996.mk)
+$(call inherit-product, device/sony/msm8996-common/msm8996.mk)
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/audio_platform_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info.xml \
@@ -38,7 +38,7 @@ DEVICE_PACKAGE_OVERLAYS += \
 
 # Ramdisk
 PRODUCT_PACKAGES += \
-    init.zuk.rc
+    init.sony.rc
 
 # Vendor properties
 -include $(LOCAL_PATH)/vendor_prop.mk
